@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    background:#FAFAFA;
+}
+.containerfull{
+    width: 100%;
+}
+.footercontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background: #686963;
+}
+.footersection{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    color: #e2f3fd;
+}
+#footerpolicycontainer{
+    font-weight: bold;
+    padding:5px 5px;
+    background: #686963;
+    color: #e2f3fd;
+    padding-left: 10%;
+}
