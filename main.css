@@ -5,12 +5,15 @@ body{
 .containerfull{
     width: 100%;
 }
+
+/* Footer */
 .footercontainer{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    background: #686963;
+    background: black;
+    padding-top: 30px;
 }
 .footersection{
     display: flex;
@@ -20,11 +23,112 @@ body{
     margin-right: auto;
     padding: 10px 10px;
     color: #e2f3fd;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #footerpolicycontainer{
     font-weight: bold;
     padding:5px 5px;
-    background: #686963;
+    background: #000000;
     color: #e2f3fd;
     padding-left: 10%;
+}
+.footerlink{
+    text-decoration: none;
+    padding-top :5px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #FAFAFA;
+}
+/*NAVBAR*/
+.navcontainer{
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content:left;
+    flex-flow: row nowrap;
+}
+.nav-logo{
+    width: 15%;
+    background: black;
+    display: flex; 
+    height: 50px;
+    text-justify: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#nav-img{
+    display: inline-block;
+    width: 30%;
+}
+#nav-brand{
+    display:inline-block;
+    margin:auto;
+    width: auto;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+    align-content: center;
+    color: white;
+    background-color: black;
+    height: inherit;
+
+}
+.nav-item{
+    padding-left: 5%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 17%;
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding-top: 17%;
+}
+.dropdownmenu{
+    display: none;
+    position: absolute;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    top:100%;
+    width: 100%;
+}
+.dropdown{
+    background:lightslategray;
+    border: 1px black;
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-style: solid;
+}
+.dropdown:hover{
+    background: silver;
+}
+
+/*Search*/
+#Searchcontainer{
+    background-color: black;
+    height: inherit;
+    width: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+}
+.searchbtn{
+    background-color: ivory;
+    width: 10px;
+    height: 10px;
+    border-radius: 70%;
+    margin-top:20%
+}
+.searchinput{
+    width: 70%;
 }

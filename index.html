@@ -10,11 +10,11 @@
 </head>
 <body>
     <!-- HEADER -->
-    <div class="containerfull">
+    <div class="navcontainer">
         <!--ICON-->
         <div class='nav-logo'>
             <img id='nav-img' src="#">
-            <div id='nav-brand'>FoodRecipe</div>
+            <div id='nav-brand'><b>FOODRECIPE</b></div>
         </div>
         <!--Menu-->
         <div class="navbar">
@@ -23,7 +23,7 @@
                 <a class="nav-link" href="#">About</a>
             </div>
             <!--Cac nuoc-->
-            <div class="nav-item">
+            <div class="nav-item" id='drop1'>
                 <a class="nav-link" href="#">Các Nước</a>
                 <div class="dropdownmenu">
                     <div class="dropdown">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <!--Cach che bien-->
-            <div class="nav-item">
+            <div class="nav-item" id='drop2'>
                 <a class="nav-link" href="#">Chế Biến</a>
                 <div class="dropdownmenu">
                     <div class="dropdown">
@@ -76,7 +76,12 @@
                 </div>
             </div>
             <!--Search-->
-            <div id="Searchcontainer"></div>
+        <div id="Searchcontainer">
+            <form action="search.js">
+                <input class='searchinput' type="text" placeholder="Search.." name="search">
+                <button type="submit" class="searchbtn"></button>
+              </form>
+        </div>
         </div>
     </div>
     <!--Slide-->
@@ -129,7 +134,7 @@
         <div class='footerbrand'>Contact info</div>
             <p class="footertext" ><b>Address:</b><br>71 Nguyễn Chí Thanh</p>
             <p class="footertext" ><b>Phone:</b><br>0358842658</p>
-            <p class="footertext" ><b>Email:</b><br>hoanghohohaha</p>
+            <p class="footertext"><b>Email:</b><br>hoanghohohaha@gmail.com</p>
         </div>
         </div>
         <div id='footerpolicycontainer'>@FoodRecipe 2020, Powered by MindX, Design by Buc</div>
