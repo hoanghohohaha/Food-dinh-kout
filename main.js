@@ -24,8 +24,20 @@ Showslide(slideindex);
 
 function Showslide(n){
     var slides=document.getElementsByClassName('slideshow');
-    if (n > 3) {slideIndex = 1};  
-    if (n < 1) {slideIndex = 3};
+    if (n > 3) {slideindex = 1;
+                n=1;
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slides[n-1].style.display='block';
+            };  
+    if (n < 1) {slideindex = 3;
+                n=3;
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slides[n-1].style.display='block';
+    };  
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }

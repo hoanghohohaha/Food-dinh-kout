@@ -67,6 +67,7 @@ body{
     margin:auto;
     width: auto;
     color: white;
+    text-decoration: none;
 }
 .navbar{
     display: flex;
