@@ -1,0 +1,113 @@
+#maincontactcontain{
+    width: 90%;
+    margin: auto;
+    margin-top: 7vh;
+    height: 70%;
+    padding: 4vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+#contactheader{
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right:auto ;
+    width: 80%;
+    height: auto;
+}
+#imgheadcontact{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 0px 12px 0px black;
+}
+.contactcontainer{
+    display: flex;
+    flex-flow:row nowrap ;
+    justify-content: space-around;
+    padding: 10px;
+}
+#contact1,#contact2{
+    background-color: black;
+    width: 40%;
+    padding-top: 30px;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    align-content: space-between;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 0px 12px 0px black;
+    border-radius: 10%;
+}
+.contactimg{
+    border-radius: 100%;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 10%;
+    margin: auto;
+
+}
+#imgcontact2{
+    background: url('https://scontent-hkg3-2.xx.fbcdn.net/v/t1.15752-9/86601682_803862880024275_4450090137363152896_n.jpg?_nc_cat=110&_nc_ohc=IpLhb6COwu4AX-lR0nJ&_nc_ht=scontent-hkg3-2.xx&oh=f52c06f38aa366188b14eb5cc0dd28d5&oe=5EF9C84D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition:all 1s ease;
+}
+#imgcontact1{
+    background: url('https://scontent-hkg3-1.xx.fbcdn.net/v/t1.15752-9/86426017_630365634467506_8434756495882584064_n.jpg?_nc_cat=100&_nc_ohc=L_FByVyLjxgAX_V3PVi&_nc_ht=scontent-hkg3-1.xx&oh=7e29692acd7b27daf4a331c4acbbef9c&oe=5EBF5472');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition:all 1s ease;
+}
+.contactname{
+    padding: 40px;
+}
+#imgcontact1:hover{
+    background-size: 120%;
+}
+#imgcontact2:hover{
+    background-size: 120%;
+}
+.contactsocialcontain{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.socialmedia{
+    height:10vh;
+    width: 10vh;
+    margin: 3vh;
+    background: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Github{
+    /* background-color: khaki; */
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQERDi-tZcUzKc6aVNW-V_iRnGtezLjSBbk6b6fzxHRfmdq-gZz');
+}
+.Facebook{
+    background-image: url('https://i.ya-webdesign.com/images/black-facebook-icon-png-16.png');
+}
+.Instargram{
+    background-image: url('https://i.dlpng.com/static/png/5787372-instagram-logo-vector-icons-free-download-cqrecords-vector-instagram-logo-2304_1728_preview.png');
+}
+#aboutustext{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: fantasy;
+}
+#abouttext{
+    width: 66.67%;
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+}

@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Food Recipe</title>
     <link rel='stylesheet' content='text.css' href="main.css">
+    <link rel='stylesheet' content='text.css' href="food.css">
+    <script src="random.js"defer></script>
     <script src="main.js" defer></script>
-    <script src='slideshow.js' defer></script>
-    <script src='random.js'defer></script>
 </head>
 <body>
-   <!-- HEADER -->
+    <!-- HEADER -->
     <div class="navcontainer sticky">
         <!--ICON-->
         <div class='nav-logo'>
@@ -85,92 +85,46 @@
               </form>
         </div>
         </div>
-    </div> 
-    <!--Slide-->
-    <div class="containerfull">
-        <!--SlideImg-->
-        <div class='Slide'>
-            <!--button-->
-            <a id="backbtn" onclick="nextslide(-1)">&#10094;</a>
-            <a id='nextbtn'onclick="nextslide(1)">&#10095;</a>
-            <div id="slidecontain">
-                <div class='slideshow' id='loading1'>
-                    <a class="text">Gia vị tuyệt vời</a>
-                </div>
-                <div class='slideshow' id='loading2'>
-                    <a class="text">Đủ Dinh Dưỡng</a>
-                </div>
-                <div class='slideshow' id='loading3'>
-                    <a class="text">Giá rẻ và sạch</a>
-                </div>
-            <div class="glider">
-                <div class="Dot" id='Dot1' onclick="Dot(1)"></div>
-                <div class="Dot" id='Dot2' onclick="Dot(2)"></div>
-                <div class="Dot" id='Dot3' onclick="Dot(3)"></div>
+    </div>
+<!--BOdy-->
+<div id='detailcontain'>
+    <div id='maininfo'>
+        <div id='detailimg'></div>
+        <div id='detailname'>aaaaa</div>
+        <div id="detailinfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nesciunt voluptatum vero laborum necessitatibus voluptate, voluptatem possimus ipsa aliquid deserunt saepe! Sit labore eos dolorem blanditiis reprehenderit magni accusamus tempore!</div>
+    </div>
+    <div id='stepcontain'>
+        <div id='steps'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, provident? Totam, commodi placeat! Dolorem ratione, eligendi quos, quisquam dolor harum nesciunt accusantium possimus distinctio nostrum maxime porro incidunt at aliquam.</div>
+        <div id='youtubelink' onclick="OpenYoutubeLink()">https://www.youtube.com/watch?v=7Hj8j4sEyJg</div>
+    </div>
+    <div id='cataloge'></div>
+</div>
+        <!--Footer-->
+        <div id='footer' class="containerfull">
+            <div class="footercontainer">
+            <!--About us-->
+            <div class="footersection">
+                <div class='footerbrand'>About</div>
+                <a class="footerlink" href="demo.html">About us</a>
+                <a class="footerlink" href="demo.html#map">Contact</a>
+                <a class="footerlink" href="demo.html#maincontactcontain">Our team</a>
+            </div>
+            <!--Follow-->
+            <div class="footersection">
+                <div class='footerbrand'>Follow us</div>
+                <a class="footerlink" href="https://www.facebook.com/kipiiler">Facebook</a>
+                <a class="footerlink" href="https://www.instagram.com/itsbucc_/">Instargram</a>
+                <a class="footerlink" href="https://twitter.com/">Twitter</a>
+            </div>
+            <!--Contactinfo-->
+            <div class="footersection">
+            <div class='footerbrand'>Contact info</div>
+                <p class="footertext" ><b>Address:</b><br>71 Nguyễn Chí Thanh</p>
+                <p class="footertext" ><b>Phone:</b><br>0358842658</p>
+                <p class="footertext"><b>Email:</b><br>hoanghohohaha@gmail.com</p>
             </div>
             </div>
+            <div id='footerpolicycontainer'>@FoodRecipe 2020, Powered by MindX, Design by Buc</div>
         </div>
-    </div>
-    <!--Random-->
-    <hr>
-    <div class="containerfull">
-        <!--Contentrandom-->
-        <div class="Randomcontent">
-            <div id='randomtext'>Hôm nay bạn chưa biết nấu món gì<br>Hãy để chúng tôi chọn cho bạn</div>
-            <a id='randombtn' onclick="Random()">Click here</a>
-        </div>
-<br>
-<br>
-    <br>
-    <br>
-    <hr>
-    <!--Mon An Viet MOi-->
-    <div class="containerfull">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-    <!--Mon AN Y MOI-->
-    <div class="containerfull">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-    <!--Mon An phap moi-->
-    <div class="containerfull">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-     <!--Footer-->
-     <div id='footer' class="containerfull">
-        <div class="footercontainer">
-        <!--About us-->
-        <div class="footersection">
-            <div class='footerbrand'>About</div>
-            <a class="footerlink" href="demo.html">About us</a>
-            <a class="footerlink" href="demo.html#map">Contact</a>
-            <a class="footerlink" href="demo.html#maincontactcontain">Our team</a>
-        </div>
-        <!--Follow-->
-        <div class="footersection">
-            <div class='footerbrand'>Follow us</div>
-            <a class="footerlink" href="https://www.facebook.com/kipiiler">Facebook</a>
-            <a class="footerlink" href="https://www.instagram.com/itsbucc_/">Instargram</a>
-            <a class="footerlink" href="https://twitter.com/">Twitter</a>
-        </div>
-        <!--Contactinfo-->
-        <div class="footersection">
-        <div class='footerbrand'>Contact info</div>
-            <p class="footertext" ><b>Address:</b><br>71 Nguyễn Chí Thanh</p>
-            <p class="footertext" ><b>Phone:</b><br>0358842658</p>
-            <p class="footertext"><b>Email:</b><br>hoanghohohaha@gmail.com</p>
-        </div>
-        </div>
-        <div id='footerpolicycontainer'>@FoodRecipe 2020, Powered by MindX, Design by Buc</div>
-    </div>
 </body>
 </html>
