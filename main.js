@@ -19,7 +19,11 @@ async function fetchdata(){
     data=await api.json();
     
 } 
-
+function search(){
+    var vale=document.getElementById('searchinput').value;
+    console.log(vale);
+    
+}
 
 
 

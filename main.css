@@ -131,17 +131,23 @@ body{
 }
 .searchbtn{
     background-color: white;
-    width: 10px;
-    height: 13px;
+    width: 15%;
+    height: 60%;
     padding: auto;
     margin: auto;
+    border: none;
+    cursor: pointer;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQcEgDCL-tC6QcDEe0y6SQ1p1DGxWcX2kjJpzCPLDIDHRBuqeFg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 100%;
 }
-.searchinput{
+#searchinput{
     width: 70%;
-}
-#form{
-    padding: auto;
-    margin: auto;
+    height: 60%;
+    align-self: center;
 }
 
 /* Slide */
@@ -249,27 +255,50 @@ body{
     margin: auto;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
 }
 #randomtext{
     padding: 10px;
     margin-top: 7vh;
     margin: auto;
 }
-#randombtn{
+.randombtn{
     text-decoration: none;
     color: black;
     transition: all .3s ease;
     padding: 10px;
-    margin-top: 10vh;
     margin-bottom: 12vh;
     margin: auto;
     cursor: pointer;
+    font-size: x-large;
+    margin-top: 5vh;    
+    font-family: 'Courier New', Courier, monospace;
 }
-#randombtn:hover{
-    font-size: larger;
+.randombtn:hover{
+    font-size: xx-large;
     text-decoration-line: underline;
 }
-#randombtn:active{
+.randombtn:active{
+    color: black;
+}
+/*Home button*/
+.Homebtn{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+    padding: 10px;
+    margin-bottom: 12vh;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.Homebtn:hover{
+    font-size: xx-large;
+    text-decoration-line: underline;
+}
+.Homebtn:active{
     color: black;
 }

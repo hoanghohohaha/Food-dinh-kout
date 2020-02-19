@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Food Recipe</title>
     <link rel='stylesheet' content='text.css' href="main.css">
+    <link rel='stylesheet' content='text.css' href="food.css">
     <script src="main.js" defer></script>
     <script src='slideshow.js' defer></script>
     <script src='random.js'defer></script>
@@ -79,13 +80,12 @@
             </div>
             <!--Search-->
         <div id="Searchcontainer">
-            <form action="search.js" id='form'>
-                <input class='searchinput' type="text" placeholder="Search.." name="search">
-                <button type="submit" class="searchbtn"></button>
-              </form>
+                <input id='searchinput' type="text" placeholder="Search.." name="search">
+                <button type="submit" class="searchbtn" onclick="search()"></button>
         </div>
         </div>
     </div> 
+    <div id='mainpagebody'>
     <!--Slide-->
     <div class="containerfull">
         <!--SlideImg-->
@@ -117,7 +117,7 @@
         <!--Contentrandom-->
         <div class="Randomcontent">
             <div id='randomtext'>Hôm nay bạn chưa biết nấu món gì<br>Hãy để chúng tôi chọn cho bạn</div>
-            <a id='randombtn' onclick="Random()">Click here</a>
+            <a class='randombtn' onclick="Random()">Click here</a>
         </div>
 <br>
 <br>
@@ -145,6 +145,8 @@
         <div class="box"></div>
         <div class="box"></div>
     </div>
+</div>
+</div>
      <!--Footer-->
      <div id='footer' class="containerfull">
         <div class="footercontainer">
