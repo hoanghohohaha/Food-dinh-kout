@@ -37,4 +37,4 @@ function nextslide(n){
 }
 function Dot(n) {
     Showslide(slideIndex = n);
-  }
+}

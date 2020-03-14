@@ -51,14 +51,14 @@ var home=`<div class="containerfull">
 <div class="containerfull">
 <!--Contentrandom-->
 <div class="Randomcontent">
-    <div id='randomtext'>Hôm nay bạn chưa biết nấu món gì<br>Hãy để chúng tôi chọn cho bạn</div>
-    <a id='randombtn' onclick="Random()">Click here</a>
-</div>
+            <div id='randomtext'>Hôm nay bạn chưa biết nấu món gì<br>Hãy để chúng tôi chọn cho bạn</div>
+            <a class='randombtn' onclick="Random()">Click here</a>
+        </div>
 <br>
 <br>
-<br>
-<br>
-<hr>
+    <br>
+    <br>
+    <hr>
 <!--Mon An Viet MOi-->
 <div class="containerfull">
 <div class="box"></div>

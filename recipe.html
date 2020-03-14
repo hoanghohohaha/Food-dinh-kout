@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Recipe</title>
+    <link rel='stylesheet' content='text.css' href="main.css">
+    <link rel='stylesheet' content='text.css' href="food.css">
+    <link rel='stylesheet' content='text.css' href="recipe.css">
+    <script src="main.js" defer></script>
+    <script src='slideshow.js' defer></script>
+    <script src='random.js'defer></script>
+</head>
+<body>
+   <!-- HEADER -->
+    <div class="navcontainer sticky">
+        <!--ICON-->
+        <div class='nav-logo'>
+            <img id='nav-img' src="https://us.123rf.com/450wm/vectorv/vectorv2001/vectorv200171203/138892584-black-covered-with-a-tray-of-food-icon-isolated-on-black-background-tray-and-lid-restaurant-cloche-w.jpg?ver=6">
+            <a id='nav-brand' href="index.html"><b>FOODRECIPE</b></a>
+        </div>
+        <!--Menu-->
+        <div class="navbar">
+            <!--About us -->
+            <div class="nav-item">
+                <a class="nav-link" href="demo.html">About</a>
+            </div>
+            <!--Cac nuoc-->
+            <div class="nav-item" id='drop1'>
+                <a class="nav-link" href="#">Các Nước</a>
+                <div class="dropdownmenu">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Việt Nam</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Ý</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Thái Lan</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Hàn Quốc</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Pháp</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Trung Quốc</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Nhật Bản</a>
+                    </div>
+                </div>
+            </div>
+            <!--Cach che bien-->
+            <div class="nav-item" id='drop2'>
+                <a class="nav-link" href="#">Chế Biến</a>
+                <div class="dropdownmenu">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Xào</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Kho</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Nướng</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Nấu</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">LInk</a>
+                    </div>
+                </div>
+            </div>
+            <!--Nguyen Lieu-->
+            <div class="nav-item">
+                <a class="nav-link" href="#">Nguyên Liệu</a>
+                </div>
+            </div>
+            <!--Search-->
+        <div id="Searchcontainer">
+                <input id='searchinput' type="text" placeholder="Search.." name="search">
+                <button type="submit" class="searchbtn" onclick="search()"></button>
+        </div>
+        </div>
+    </div> 
+    <div id='mainpagebody'>
+        <div id="recipetext">~ RECIPE ~</div>
+        <div id='recipecontain'>
+            <div class='recipebox' id="1"></div>
+            <div class='recipebox' id="2"></div>
+            <div class='recipebox' id="3"></div>
+            <div class='recipebox' id="4"></div>
+            <div class='recipebox' id="5"></div>
+            <div class='recipebox' id="6"></div>
+            <div class='recipebox' id="7"></div>
+            <div class='recipebox' id="8"></div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div id='footer' class="containerfull">
+       <div class="footercontainer">
+       <!--About us-->
+       <div class="footersection">
+           <div class='footerbrand'>About</div>
+           <a class="footerlink" href="demo.html">About us</a>
+           <a class="footerlink" href="demo.html#map">Contact</a>
+           <a class="footerlink" href="demo.html#maincontactcontain">Our team</a>
+       </div>
+       <!--Follow-->
+       <div class="footersection">
+           <div class='footerbrand'>Follow us</div>
+           <a class="footerlink" href="https://www.facebook.com/kipiiler">Facebook</a>
+           <a class="footerlink" href="https://www.instagram.com/itsbucc_/">Instargram</a>
+           <a class="footerlink" href="https://twitter.com/">Twitter</a>
+       </div>
+       <!--Contactinfo-->
+       <div class="footersection">
+       <div class='footerbrand'>Contact info</div>
+           <p class="footertext" ><b>Address:</b><br>71 Nguyễn Chí Thanh</p>
+           <p class="footertext" ><b>Phone:</b><br>0358842658</p>
+           <p class="footertext"><b>Email:</b><br>hoanghohohaha@gmail.com</p>
+       </div>
+       </div>
+       <div id='footerpolicycontainer'>@FoodRecipe 2020, Powered by MindX, Design by Buc</div>
+   </div>
